@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensionBetweenSRPandEncapsulation", "TensionBetweenSRPandEncapsulation\TensionBetweenSRPandEncapsulation.csproj", "{F14F4201-8C76-4446-87C8-95CAB322E1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensionBetweenSRPandLowCoupling", "TensionBetweenSRPandLowCoupling\TensionBetweenSRPandLowCoupling.csproj", "{7C599E1C-4D48-4216-9952-0545C1849D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensionBetweenDRYandLowCoupling", "TensionBetweenDRYandLowCoupling\TensionBetweenDRYandLowCoupling.csproj", "{A99C3CD0-8596-4AD2-AF27-4608B5CC7859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14F4201-8C76-4446-87C8-95CAB322E1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14F4201-8C76-4446-87C8-95CAB322E1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14F4201-8C76-4446-87C8-95CAB322E1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14F4201-8C76-4446-87C8-95CAB322E1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C599E1C-4D48-4216-9952-0545C1849D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C599E1C-4D48-4216-9952-0545C1849D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C599E1C-4D48-4216-9952-0545C1849D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C599E1C-4D48-4216-9952-0545C1849D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99C3CD0-8596-4AD2-AF27-4608B5CC7859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99C3CD0-8596-4AD2-AF27-4608B5CC7859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99C3CD0-8596-4AD2-AF27-4608B5CC7859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99C3CD0-8596-4AD2-AF27-4608B5CC7859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
