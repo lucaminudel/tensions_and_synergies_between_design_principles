@@ -15,13 +15,17 @@ Ilias Bartolini developed a coding-dojo that a group of people can run multiple 
 
 - This is an example of a [graphical representation](http://www.slideshare.net/brain79/desing-principles-tensions-and-synergies-v30/16)
 
-## Credits
-Thanks to Daniel Tsadok for the porting of the examples to Ruby.
-Thanks to Peter Oxenham for the porting of the examples to Java.
-
-
 ## Code examples
 In this repo you find small code examples, each showing a tension or a synergy between two object-oriented design principles.
 
-If you have one more examples, or if you want to port these examples in other languages (i.e. Java, Ruby), make a pull request.
+If you have one more examples, please share them with  a pull request.
+
+## Credits
+Thanks to [Ilias Bartolini](https://github.com/iliasbartolini/) for creating a coding-dojo that explores this topic and inspired these code samples.
+
+Thanks to [Daniel Tsadok](https://github.com/dtsadok-tw) for the porting of the examples to Ruby.
+
+Thanks to [Peter Oxenham](https://github.com/peterox) for the porting of the examples to Java.
+
+
 
