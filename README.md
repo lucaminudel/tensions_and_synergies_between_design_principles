@@ -18,7 +18,7 @@ Ilias Bartolini developed a coding-dojo that a group of people can run multiple 
 ## Code examples
 In this repo you find small code examples, each showing a tension or a synergy between two object-oriented design principles.
 
-If you have one more examples, please share them with  a pull request.
+If you have more examples, please share them with a pull request.
 
 ## Credits
 Thanks to [Ilias Bartolini](https://github.com/iliasbartolini/) for creating a coding-dojo that explores this topic and inspired these code samples.
