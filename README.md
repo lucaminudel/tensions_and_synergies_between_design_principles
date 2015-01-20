@@ -27,5 +27,7 @@ Thanks to [Daniel Tsadok](https://github.com/dtsadok-tw) for the porting of the 
 
 Thanks to [Peter Oxenham](https://github.com/peterox) for the porting of the examples to Java.
 
+Thanks to [Jonathan Reyes](https://github.com/jreyes33) for the porting of the examples to JavaScript.
+
 
 
