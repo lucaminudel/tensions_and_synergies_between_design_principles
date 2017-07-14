@@ -4,10 +4,10 @@ namespace TensionBetweenDRYandLowCoupling.After
 {
     public class UniblabRobot : Robot
     {
-		// UniblabRobot class represents a robot that accept commands to move in four directions.
+		// UniblabRobot class represents a robot that accepts commands to move in four directions.
 		// UniblabRobot class follows the DRY principle now because code in common with RosieRobot is in Robot class.
-		// UniblabRobot class has one more dependency to Robot class so coupling is higher.
-		// Sometime this coupling in called 'subclass coupling' or more in general a 'dependency'.
+		// UniblabRobot class has one more dependencies to Robot class, so coupling is higher.
+		// Sometimes this coupling in called 'subclass coupling' or, more in general, a 'dependency'.
 
 		private Tuple<int, int> _currentPosition = new Tuple<int, int>(5, 5);
 
