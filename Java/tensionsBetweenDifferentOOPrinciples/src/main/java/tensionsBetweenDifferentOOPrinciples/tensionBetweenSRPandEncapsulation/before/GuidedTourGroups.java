@@ -1,5 +1,6 @@
 package tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandEncapsulation.before;
 
+
 import tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandEncapsulation.Tuple;
 
 import java.util.ArrayList;
@@ -16,8 +17,9 @@ public class GuidedTourGroups {
 
     public void AddGroupToTheGuidedTour(int size, String contactDetails, String billingAddress) {
         if (0 >= size) throw new ArrayIndexOutOfBoundsException("size");
-//            if (IsNullOrWhiteSpace(contactDetails)) throw new IllegalArgumentException("contactDetails");
-//            if (IsNullOrWhiteSpace(billingAddress)) throw new IllegalArgumentException("billingAddress");
+
+        if (IsNullOrWhiteSpace(contactDetails)) throw new IllegalArgumentException("contactDetails");
+        if (IsNullOrWhiteSpace(billingAddress)) throw new IllegalArgumentException("billingAddress");
 
         if (_guidedTourGoupsSize + size > GuidedTourMaxSize)
             throw new IllegalArgumentException("Group size exceeded guided tour's vacancies");
@@ -29,5 +31,20 @@ public class GuidedTourGroups {
     // Other public methods related to groups omitted for brevity
 
     // Other public methods related to guided tour omitted for brevity
+
+
+    private static boolean IsNullOrWhiteSpace(String value)
+    {
+        if (value == null)
+            return true;
+
+        for (int index = 0; index < value.length(); ++index)
+        {
+            if (!Character.isWhitespace((value.charAt(index))))
+                return false;
+        }
+        return true;
+    }
+
 }
 

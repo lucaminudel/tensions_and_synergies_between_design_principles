@@ -1,8 +1,9 @@
-package tensionsBetweenDifferentOOPrinciples;
-
 /**
  * Created by poxenha on 16/01/15.
  */
+
+package tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandLowCoupling;
+
 public class Tuple<T1, T2> {
 
     private T1 item1;

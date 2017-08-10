@@ -1,11 +1,12 @@
 package tensionsBetweenDifferentOOPrinciples.tensionBetweenDRYandLowCoupling.after;
 
-import tensionsBetweenDifferentOOPrinciples.Tuple;
+import tensionsBetweenDifferentOOPrinciples.tensionBetweenDRYandLowCoupling.Tuple;
 
 public class UniblabRobot extends Robot {
-    // UniblabRobot class represents a robot that accept commands to move in four directions.
+    // UniblabRobot class represents a robot that accepts commands to move in four directions.
     // UniblabRobot class follows the DRY principle now because code in common with RosieRobot is in Robot class.
-    // UniblabRobot class has one more dependency to Robot class so coupling is higher.
+    // UniblabRobot class has one more dependencies to Robot class, so coupling is higher.
+    // Sometimes this coupling in called 'subclass coupling' or, more in general, a 'dependency'.
 
     private Tuple<Integer, Integer> _currentPosition = new Tuple<Integer, Integer>(5, 5);
 

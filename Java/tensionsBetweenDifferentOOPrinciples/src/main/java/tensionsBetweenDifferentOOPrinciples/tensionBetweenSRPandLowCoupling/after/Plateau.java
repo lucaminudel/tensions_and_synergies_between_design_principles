@@ -1,6 +1,6 @@
 package tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandLowCoupling.after;
 
-import tensionsBetweenDifferentOOPrinciples.Tuple;
+import tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandLowCoupling.Tuple;
 
 public class Plateau {
     // Plateau class represents a plateau with well defined boundaries.

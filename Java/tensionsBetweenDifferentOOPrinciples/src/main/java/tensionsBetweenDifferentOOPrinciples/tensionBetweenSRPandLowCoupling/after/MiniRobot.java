@@ -1,12 +1,14 @@
 package tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandLowCoupling.after;
 
-import tensionsBetweenDifferentOOPrinciples.Tuple;
+import tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandLowCoupling.Tuple;
 import sun.plugin.dom.exception.InvalidStateException;
 
 public class MiniRobot {
-    // MiniRobot class now represents only a robot that accept commands to move in four directions inside the plateau.
-    // So MiniRobot class follows the Single Responsibility Principle (SRP) while it has an additional dependency to
-    // the Plateau class. Because of it, coupling in higher.
+    // MiniRobot class now represents only a robot that accepts commands to move in four directions
+    // inside the plateau.
+    // So MiniRobot class follows the Single Responsibility Principle (SRP). While it has an
+    // additional dependency on the Plateau class. Because of it, coupling is higher than before.
+    // The type of coupling introduced here is called 'message coupling'.
 
     private final Plateau _plateau = new Plateau();
     private Tuple<Integer, Integer> _currentPosition = new Tuple<Integer, Integer>(5, 5);

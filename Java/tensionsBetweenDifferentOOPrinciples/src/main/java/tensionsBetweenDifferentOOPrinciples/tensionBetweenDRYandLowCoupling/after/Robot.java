@@ -1,7 +1,8 @@
 
 package tensionsBetweenDifferentOOPrinciples.tensionBetweenDRYandLowCoupling.after;
 
-import tensionsBetweenDifferentOOPrinciples.Tuple;
+
+import tensionsBetweenDifferentOOPrinciples.tensionBetweenDRYandLowCoupling.Tuple;
 
 public class Robot {
     protected final Tuple<Integer, Integer> North = new Tuple<Integer, Integer>(1, 0);

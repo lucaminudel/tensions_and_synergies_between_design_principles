@@ -1,3 +1,7 @@
+/**
+ * Created by poxenha on 16/01/15.
+ */
+
 package tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandEncapsulation;
 
 public class Tuple<T1, T2, T3> {

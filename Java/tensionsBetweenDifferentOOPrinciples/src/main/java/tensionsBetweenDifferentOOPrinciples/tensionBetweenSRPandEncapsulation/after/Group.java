@@ -10,8 +10,8 @@ public class Group {
 
     public Group(int size, String contactDetails, String billingAddress) {
         if (0 >= size) throw new ArrayIndexOutOfBoundsException("size");
-//            if (IsNullOrWhiteSpace(contactDetails)) throw new IllegalArgumentException("contactDetails");
-//            if (IsNullOrWhiteSpace(billingAddress)) throw new IllegalArgumentException("billingAddress");
+        if (IsNullOrWhiteSpace(contactDetails)) throw new IllegalArgumentException("contactDetails");
+        if (IsNullOrWhiteSpace(billingAddress)) throw new IllegalArgumentException("billingAddress");
 
         _size = size;
         _contactDetails = contactDetails;
@@ -19,5 +19,18 @@ public class Group {
     }
 
     // Other public methods related to Group omitted for brevity
+
+    private static boolean IsNullOrWhiteSpace(String value)
+    {
+        if (value == null)
+            return true;
+
+        for (int index = 0; index < value.length(); ++index)
+        {
+            if (!Character.isWhitespace((value.charAt(index))))
+                return false;
+        }
+        return true;
+    }
 }
 

@@ -1,13 +1,13 @@
 package tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandLowCoupling.before;
 
-import tensionsBetweenDifferentOOPrinciples.Tuple;
 import sun.plugin.dom.exception.InvalidStateException;
+import tensionsBetweenDifferentOOPrinciples.tensionBetweenSRPandLowCoupling.Tuple;
 
 public class MiniRobot {
     // MiniRobot class represents a plateau with well defined boundaries *and* represent a robot that
-    // accept commands to move in four directions inside the plateau.
-    // So MiniRobot class violates the Single Responsibility Principle (SRP) while it has no dependencies to other
-    // classes so it has low coupling.
+    // accepts commands to move in four directions inside the plateau.
+    // So MiniRobot class violates the Single Responsibility Principle (SRP), while it has no logical or
+    // physical dependencies to other classes, so it has a low coupling.
 
     private Tuple<Integer, Integer> _plateau = new Tuple<Integer, Integer>(11, 13);
     private Tuple<Integer, Integer> _currentPosition = new Tuple<Integer, Integer>(5, 5);

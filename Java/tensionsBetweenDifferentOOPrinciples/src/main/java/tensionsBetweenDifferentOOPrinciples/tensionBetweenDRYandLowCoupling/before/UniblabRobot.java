@@ -1,11 +1,11 @@
 
 package tensionsBetweenDifferentOOPrinciples.tensionBetweenDRYandLowCoupling.before;
 
-import tensionsBetweenDifferentOOPrinciples.Tuple;
+import tensionsBetweenDifferentOOPrinciples.tensionBetweenDRYandLowCoupling.Tuple;
 
 public class UniblabRobot {
-    // UniblabRobot class represents a robot that accept commands to move in four directions.
-    // UniblabRobot class has no dependencies so it has a very low coupling.
+    // UniblabRobot class represents a robot that accepts commands to move in four directions.
+    // UniblabRobot class has no dependencies so it has a very low coupling or no coupling at all.
     // UniblabRobot class code is very similar to the RosieRobot class code so it violates the DRY principle.
 
     private Tuple<Integer, Integer> _currentPosition = new Tuple<Integer, Integer>(5, 5);

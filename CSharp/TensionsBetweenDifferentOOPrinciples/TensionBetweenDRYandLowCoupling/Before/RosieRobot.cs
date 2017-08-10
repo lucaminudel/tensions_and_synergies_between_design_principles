@@ -4,7 +4,7 @@ namespace TensionBetweenDRYandLowCoupling.Before
 {
     public class RosieRobot
     {
-        // RosieRobot class represents a robot that accept commands to move in four directions.
+        // RosieRobot class represents a robot that accepts commands to move in four directions.
         // RosieRobot class has no dependencies so it has a very low coupling or no coupling at all.
         // RosieRobot class code is very similar to the UniblabRobot class code so it violates the DRY principle.
  
