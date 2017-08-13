@@ -13,7 +13,7 @@ public class GuidedTourGroups {
     private final static int GuidedTourMaxSize = 30;
     private int _guidedTourGoupsSize = 0;
 
-    private final List<Tuple<Integer, String, String>> _groups = new ArrayList<Tuple<Integer, String, String>>();
+    private final List<Tuple<Integer, String, String>> _groups = new ArrayList<>();
 
     public void AddGroupToTheGuidedTour(int size, String contactDetails, String billingAddress) {
         if (0 >= size) throw new ArrayIndexOutOfBoundsException("size");
@@ -24,7 +24,7 @@ public class GuidedTourGroups {
         if (_guidedTourGoupsSize + size > GuidedTourMaxSize)
             throw new IllegalArgumentException("Group size exceeded guided tour's vacancies");
 
-        _groups.add(new Tuple<Integer, String, String>(size, contactDetails, billingAddress));
+        _groups.add(new Tuple<>(size, contactDetails, billingAddress));
         _guidedTourGoupsSize += size;
     }
 

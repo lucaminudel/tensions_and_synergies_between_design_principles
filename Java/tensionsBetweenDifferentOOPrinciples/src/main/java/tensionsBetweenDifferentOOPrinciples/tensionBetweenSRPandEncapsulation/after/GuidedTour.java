@@ -11,7 +11,7 @@ public class GuidedTour {
     private static final int GuidedTourMaxSize = 30;
     private int _guidedTourGoupsSize = 0;
 
-    private List<Group> _groups = new ArrayList<Group>();
+    private List<Group> _groups = new ArrayList<>();
 
     public void AddGroup(Group groupWillingToJoinTheTour) {
         // How can you implement the possibility to add a group to the tour

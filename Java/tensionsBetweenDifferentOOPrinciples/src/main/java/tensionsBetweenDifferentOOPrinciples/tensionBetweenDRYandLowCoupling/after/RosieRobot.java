@@ -10,7 +10,7 @@ public class RosieRobot extends Robot {
     // RosieRobot class has one more dependencies to Robot class, so coupling is higher.
     // Sometimes this coupling in called 'subclass coupling' or, more in general, a 'dependency'.
 
-    private Tuple<Integer, Integer> _currentPosition = new Tuple<Integer, Integer>(5, 5);
+    private Tuple<Integer, Integer> _currentPosition = new Tuple<>(5, 5);
 
     public void MoveOneNorth() {
         _currentPosition = Add(_currentPosition, North);
