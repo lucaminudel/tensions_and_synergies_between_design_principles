@@ -20,6 +20,14 @@ In this repo you find small code examples, each showing a tension or a synergy b
 
 If you have more examples, please share them with a pull request.
 
+
+## Additional Refactoring Coding-Dojo
+From the original coding-dojo, attendees can refactor the 'Before' code by applying one design principle producing an 'After' code and then observing the tension with another design principle.
+
+[Here](https://github.com/lucaminudel/tensions_and_synergies_between_design_principles/SolvingTheTensions) I'm adding more refactoring exercises where attendees are asked to refactor the 'After' code to resolve the tension by finding a good tradeoff.
+
+For the facilitator, I've added a [C# example for the 'TensionBetweenSRPandEncapsulation'](https://github.com/lucaminudel/tensions_and_synergies_between_design_principles/SolvingTheTensionsCSharp/TensionBetweenSRPandEncapsulation) with a 'Worse' solution and a 'Beter' solution and some notes for the facilitator. More examples are needed for the other cases of tension and for the other languages.
+
 ## Credits
 Thanks to [Ilias Bartolini](https://github.com/iliasbartolini/) for creating a coding-dojo that explores this topic and inspired these code samples.
 
