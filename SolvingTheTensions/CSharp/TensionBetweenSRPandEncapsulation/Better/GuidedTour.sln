@@ -1,7 +1,7 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidedTour", "GuidedTour\GuidedTour.csproj", "{1284B843-AFA0-44C4-876C-C799DCF0D074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuidedTour", "GuidedTour\GuidedTour.csproj", "{1284B843-AFA0-44C4-876C-C799DCF0D074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensionBetweenSRPandEncapsulation", "TensionBetweenSRPandEncapsulation\TensionBetweenSRPandEncapsulation.csproj", "{F14F4201-8C76-4446-87C8-95CAB322E1EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TensionBetweenSRPandEncapsulation", "TensionBetweenSRPandEncapsulation\TensionBetweenSRPandEncapsulation.csproj", "{F14F4201-8C76-4446-87C8-95CAB322E1EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensionBetweenSRPandLowCoupling", "TensionBetweenSRPandLowCoupling\TensionBetweenSRPandLowCoupling.csproj", "{7C599E1C-4D48-4216-9952-0545C1849D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TensionBetweenSRPandLowCoupling", "TensionBetweenSRPandLowCoupling\TensionBetweenSRPandLowCoupling.csproj", "{7C599E1C-4D48-4216-9952-0545C1849D52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensionBetweenDRYandLowCoupling", "TensionBetweenDRYandLowCoupling\TensionBetweenDRYandLowCoupling.csproj", "{A99C3CD0-8596-4AD2-AF27-4608B5CC7859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TensionBetweenDRYandLowCoupling", "TensionBetweenDRYandLowCoupling\TensionBetweenDRYandLowCoupling.csproj", "{A99C3CD0-8596-4AD2-AF27-4608B5CC7859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
