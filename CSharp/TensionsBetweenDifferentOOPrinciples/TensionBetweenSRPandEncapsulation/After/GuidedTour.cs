@@ -20,7 +20,7 @@ namespace TensionBetweenSRPandEncapsulation.After
             // weaken Group'sencapsulation ?
 
             //if (_guidedTourGoupsSize + groupWillingToJoinTheTour.size > GuidedTourMaxSize)
-                throw new ArgumentException("Group size exceeded guided tour's vacancies");
+            //    throw new ArgumentException("Group size exceeded guided tour's vacancies");
 
 			//_guidedTourGoupsSize += groupWillingToJoinTheTour.size;
 
